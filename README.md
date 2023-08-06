@@ -1,5 +1,5 @@
-# Landing Page By Team Default
-## Built using React.js and Tailwindcss
+## Landing Page By Team Default
+### Built using React.js and Tailwindcss
 
 # Getting Started with Create React App
 
