@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url('../assets/Fonts/Chinon MN Regular.ttf') format('truetype');
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title1 {
+    color: #5299fc;
+    font-size: 25px;
+}
+
+#subtext {
+    color: #3a3a3a;
+    margin-top: 5px;
+}
+#n{
+    color: #5299fc;
+    cursor: "pointer";
+    transition: 0.2s;
+}
+#n:hover {  
+    color: #365bff;
+    transition: 0.2s;
+}
+
+
+#startbutton {
+    background: #1b1b1b;
+    border-radius: 15px;
+}
+
+#title2 {
+    color: #1b1b1b;
+    font-weight: normal;
+    font-family: MyFont;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#title2:hover {
+    letter-spacing: 1.6px;
+    transition: 0.5s;
+}
+
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#ills {
+    opacity: 1;
+
+
+}
+
+#ills:hover {
+
+    transition: 0.5s;
+
+}
+
+#startbtn {
+    border-radius: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+
+
+}
+
+#startbtn:hover {
+    border-radius: 25px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+img {
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; 
+    transition: 0.2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  img:hover{
+      scale: 1.1;
+      transition: 0.2s;
+  }
