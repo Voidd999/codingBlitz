@@ -18,7 +18,7 @@ const Home = () => {
             className="md:text-7xl sm:text-6xl text-6xl font-bold md:py-2"
             id="title2"
           >
-            Inter<span id = 'n'>N</span>
+            Intern<span id = 'n'>N</span>
             exus
           </h1>
           <p classname="md:text-2xl sm:text-xl text-xl font bold" id="tagline">
