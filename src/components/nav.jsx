@@ -18,7 +18,7 @@ const Navbar = () => {
         className="md:text-3xl sm:text-3xl text-3xl font-bold md:py-2  px-2 mr-3.5 mb-2.5 ease-in-out duration-500"
         id="title"
       >
-        Inter
+        Intern
         <span style={{ color: "#5299fc" }} id="n">
           N
         </span>
