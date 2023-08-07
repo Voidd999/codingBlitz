@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <div>
         <h1 className="md:text-4xl sm:text-3xl text-3xl font-bold md:py-2">
-          Inter<span id="n">N</span>
+          Intern<span id="n">N</span>
           exus
         </h1>
         <div className="flex justify-between md:w-[75%] my-6">
